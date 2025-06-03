@@ -4,6 +4,11 @@ CoordMode, Pixel, Screen
 CoordMode, Mouse, Screen
 SetWorkingDir, %A_ScriptDir%
 
+ToolTip, ⏳ Starting in 3 seconds...
+Sleep, 3000
+ToolTip  ; Hide tooltip
+
+
 starLoopCount := 10     ; number of pages to scroll
 starsPerPage := 10    ; max stars per screen
 
